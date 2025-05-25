@@ -1,6 +1,17 @@
+[project]
+name = "daqhats"
+requires-python = ">=3.12"
+dynamic = [
+	"version",
+	"dependencies",
+	"description",
+	"license",
+	"authors",
+]
+
 [build-system]
 requires = [
-"setuptools>=42",
-"wheel"
+	"setuptools>=42",
+	"wheel"
 ]
 build-backend = "setuptools.build_meta"
